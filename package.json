@@ -15,7 +15,7 @@
     "dev": "bun scripts/startup-banner.ts && next dev",
     "test": "vitest run",
     "build": "next build",
-    "vercel-build": "drizzle-kit migrate && next build",
+    "vercel-build": "next build",
     "start": "next start",
     "preview": "next build && next start",
     "commitlint": "commitlint",
